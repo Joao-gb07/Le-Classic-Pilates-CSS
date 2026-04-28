@@ -1,0 +1,49 @@
+/*seletor{propriedades:valor;}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{margin:0; padding: 0;}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    background-color: #003A70;
+}
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: #003A70;
+    padding: 30px;
+    text-align: center;
+}
+
+a{
+    color: #FFF;
+    margin: 1.6em;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+main {
+    padding: 100px;
+}
+
+h1 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    margin: 2em;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    color: #777;
+    text-align: justify;
+}
