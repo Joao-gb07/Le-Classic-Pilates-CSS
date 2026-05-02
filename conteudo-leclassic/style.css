@@ -12,7 +12,7 @@ header {
     width: 100%;
     background-color: #003A70;
 }
-img {
+img.header {
     width: 100%;
 }
 
@@ -34,6 +34,12 @@ main {
     padding: 100px;
 }
 
+article {
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
 h1 {
     font-family: "Abhaya Libre", serif;
     font-size: 3rem;
@@ -46,4 +52,14 @@ p {
     font-size: 1em;
     color: #777;
     text-align: justify;
+}
+
+#pag-benefícios {
+    background-color: #101820;
+    padding: 30px;
+}
+
+.img-modalidades {
+    width: 250px;
+    height: 250px;
 }
