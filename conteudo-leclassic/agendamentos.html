@@ -25,71 +25,83 @@
         <a href="agendamentos.html"> AGENDAMENTOS </a>
     </nav>
 
-    <hr id="pag-benefícios" />
+     <hr id="pag-benefícios" />
 
-    <h1>Agendamentos</h1>
+    <section id="pag-agendamentos">
+        <h1>Agendamentos</h1>
 
-    <p> Agende uma aula experimental Grátis! </p>
+        <div class="text-principal"> 
+            <p> Agende uma aula experimental Grátis! </p>
+        </div>
+        <form name="" method="" action="">
+            <label for="nome"> Nome: </label>
+            <input id="nome" type="text" name="nome_completo" placeholder="Nome Completo" required autofocus />
 
-    <form name="" method="" action="">
-        <label for="nome"> Nome: </label>
-        <input id="nome" type="text" name="nome_completo" placeholder="Nome Completo" required autofocus />
-
-        <label for="email"> E-mail: </label>
-        <input id="email" type="email" name="email" placeholder="nomeusuario@gmail.com">
-
-
-        <label for="senha"> Senha: </label>
-        <input id="senha" type="password" name="senha" placeholder="Digite sua senha">
-
-        <label for="celular"> Celular: </label>
-        <input id="celular" type="tel" name="celular" placeholder="(99) 99999-9999" pattern="\(\d{2}\)\s\d{5}-\d{4}"
-            required>
+            <label for="email"> E-mail: </label>
+            <input id="email" type="email" name="email" placeholder="nomeusuario@gmail.com">
 
 
-        <label for="data"> Data: </label>
-        <input id="data" type="date" name="data">
+            <label for="senha"> Senha: </label>
+            <input id="senha" type="password" name="senha" placeholder="Digite sua senha">
 
-        <label for="hora"> Hora: </label>
-        <input id="hora" type="time" name="hora">
+            <label for="celular"> Celular: </label>
+            <input id="celular" type="tel" name="celular" placeholder="(99) 99999-9999" pattern="\(\d{2}\)\s\d{5}-\d{4}"
+                required>
 
-        <label> Aulas: </label>
-        <input id="hora" type="number" name="aulas" min="1" max="10" step="1">
+            <div id="data-hora-num">
+                <div>
+                    <label for="data"> Data: </label>
+                    <input id="data" type="date" name="data">
+                </div>
 
-        <label for="nivel"> Nível: </label>
-        <select id="nivel" name="nivel">
-            <option value=""> Selecione </option>
-            <option value="iniciante"> Iniciante </option>
-            <option value="basico"> Básico </option>
-            <option value="intermediario"> Intermediário </option>
-            <option value="avançado"> Avançado </option>
-        </select>
+                <div>
+                    <label for="hora"> Hora: </label>
+                    <input id="hora" type="time" name="hora">
+                </div>
 
-        <fieldset>
-            <legend> Gênero: </legend>
-            <input id="masc" type="radio" name="genero" value="masc" /> <label for="masc"> Masculino </label>
-            <input id="fem" type="radio" name="genero" value="fem" /> <label for="fem "> Feminino </label>
-        </fieldset>
+                <div>
+                    <label> Aulas: </label>
+                    <input id="hora" type="number" name="aulas" min="1" max="10" step="1">
+                </div>
+            </div>
 
-        <fieldset>
-            <legend> Atividades: </legend>
-            <input id="musc" type="checkbox" name="atividade" value="muscalcao" /> <label for="musc"> Musculação
-            </label><br />
-            <input id="musc" type="checkbox" name="atividade" value="pilates" /> <label for="pila"> Pilates
-            </label><br />
-            <input id="pila" type="checkbox" name="atividade" value="yoga" /> <label for="yoga"> Yoga </label><br />
-            <input id="corr" type="checkbox" name="atividade" value="corrida" /> <label for="corr"> Corrida </label>
-        </fieldset>
+            <label for="nivel"> Nível: </label>
+            <select id="nivel" name="nivel">
+                <option value=""> Selecione </option>
+                <option value="iniciante"> Iniciante </option>
+                <option value="basico"> Básico </option>
+                <option value="intermediario"> Intermediário </option>
+                <option value="avançado"> Avançado </option>
+            </select>
 
-        <label for="msg"> Mensagem:</label><br />
-        <textarea id="msg"> </textarea>
+            <fieldset>
+                <legend> Gênero: </legend>
+                <input id="masc" type="radio" name="genero" value="masc" /> <label for="masc"> Masculino </label><br/>
+                <input id="fem" type="radio" name="genero" value="fem" /> <label for="fem "> Feminino </label>
+            </fieldset>
 
-        <input type="submit" name="botao-agendar" value="AGENDAR" />
-        <input type="reset" name="botao-cancelar" value="LIMPAR" />
+            <fieldset>
+                <legend> Atividades: </legend>
+                <input id="musc" type="checkbox" name="atividade" value="muscalcao" /> <label for="musc"> Musculação
+                </label><br />
+                <input id="musc" type="checkbox" name="atividade" value="pilates" /> <label for="pila"> Pilates
+                </label><br />
+                <input id="pila" type="checkbox" name="atividade" value="yoga" /> <label for="yoga"> Yoga </label><br />
+                <input id="corr" type="checkbox" name="atividade" value="corrida" /> <label for="corr"> Corrida </label>
+            </fieldset>
 
-    </form>
+            <label for="msg"> Mensagem:</label><br />
+            <textarea id="msg"> </textarea>
 
-    <p>Atividade Teste - 2026</p>
+            <div id="botoes-form">
+                <input type="submit" name="botao-agendar" value="AGENDAR" />
+                <input type="reset" name="botao-cancelar" value="LIMPAR" />
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Atividade CSS  -  2026</p>
+    </footer>
 </body>
 
 </html>

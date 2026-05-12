@@ -132,10 +132,15 @@ h3 {
     width: 30px;
     background-color: #FFF;
     margin-top: 1.5rem;
+    padding: 5px;
+    
 }
 
 .link-contato {
     color: #101820;
+    align-items: center;
+    gap: 10px;
+    
 }
 
 video {
@@ -152,4 +157,73 @@ footer p {
     text-align: center;
     font-size: 1em;
     font-weight: 700;
+}
+
+
+/* Página Agendamentos */
+
+#pag-agendamentos {
+
+}
+
+#pag-agendamentos p {
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    color: #777;
+}
+
+label, fieldset, input, textarea{
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#data-hora-num {
+    display: flex;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 11px;
+    height: 11px;
+    margin-left: 50px;
+}
+
+textarea {
+    height: 100px;
+}
+
+#botoes-form {
+    display: flex;
+}
+
+input[type="submit"] {
+    margin: 20px;
+    background-color: #003A70;
+    color: #FFF;
+    border: 0;
+    border-radius: 7px;
+}
+
+input[type="reset"]{
+    margin: 20px;
+    background-color: #e9e9e9;
+    color: #003A70;
+    border: 0;
+    border-radius: 7px;
 }
